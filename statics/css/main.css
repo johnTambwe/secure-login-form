@@ -1,0 +1,79 @@
+/* here is my css code */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin: 5px 0 0;
+    padding: 0;
+    text-align: center;
+}
